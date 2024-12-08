@@ -7,3 +7,8 @@ Requirements:
 - .NET Framework
 - Crystal Report
 
+*Login*
+
+username: `Nimu`
+password: `password`
+
