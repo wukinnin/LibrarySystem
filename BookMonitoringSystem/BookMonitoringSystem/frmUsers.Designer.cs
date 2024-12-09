@@ -287,6 +287,7 @@
             this.dataGridView11.Size = new System.Drawing.Size(370, 230);
             this.dataGridView11.TabIndex = 6;
             this.dataGridView11.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView11_CellClick);
+            this.dataGridView11.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView11_CellContentClick);
             // 
             // txbSearchBox1
             // 

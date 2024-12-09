@@ -161,6 +161,7 @@
             this.gridBooks.Size = new System.Drawing.Size(281, 133);
             this.gridBooks.TabIndex = 6;
             this.gridBooks.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridBooks_CellClick);
+            this.gridBooks.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridBooks_CellContentClick);
             // 
             // txbSearchBook
             // 

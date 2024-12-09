@@ -17,7 +17,7 @@ namespace BookMonitoringSystem
         public frmUsers()
         {
             InitializeComponent();
-            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\\etc\\2nd year 2nd sem\\BMS-20240507T055843Z-001\\BMS - Copy\\Book Monitoring System.mdb");
+            con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\\3rd year 1st sem\\BMS-20240507T055843Z-001\\BMS - Copy\\Book Monitoring System.mdb");
             dataGridView11.DefaultCellStyle.ForeColor = Color.Black;
         }
 
@@ -330,6 +330,11 @@ namespace BookMonitoringSystem
         }
 
         private void grbBookRecords_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView11_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
